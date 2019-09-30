@@ -260,6 +260,7 @@ footer {
   .home .walk {
     flex-direction: column-reverse;
     padding: 5px 20px;
+    margin-top: 2%;
   }
 }
 .home .walk .walk-text {
@@ -268,6 +269,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
+    margin-top: 5%;
   }
 }
 .home .walk .walk-text h3 {
@@ -287,7 +289,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
-    padding: 2rem 16rem;
+    padding: 2rem 30%;
     border-radius: 5px;
     background-color: #23293B;
     color: white;
@@ -303,7 +305,8 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-img {
     width: 90%;
-    margin: 0;
+    margin-top: 5%;
+    margin-left: 0;
   }
 }
 .home .walk .walk-img img {

@@ -58,6 +58,7 @@
 
     p {
       margin-top: 13px;
+      
     }
   }
 
@@ -69,13 +70,15 @@
     justify-content: center;
     @media @mobile{
       flex-direction: column-reverse; 
-      padding:5px 20px;      
+      padding:5px 20px; 
+      margin-top: 2%;     
     }
 
     .walk-text {
       width: 50%;
       @media @mobile{
-        width: 100%;     
+        width: 100%;
+        margin-top: 5%;     
       }
 
       h3 {
@@ -90,7 +93,7 @@
 
         .btn(2.3rem, 1rem, 10px, @header-font-color, white, 1.5rem, 10rem);
         @media @mobile{
-          .btn(16rem, 2rem, 5px, @header-font-color, white, 1.5rem, 90%);
+          .btn(30%, 2rem, 5px, @header-font-color, white, 1.5rem, 90%);
         }
       }
     }
@@ -100,7 +103,8 @@
       margin-left: 4%;
       @media @mobile{
         width: 90%;
-        margin: 0;     
+        margin-top: 5%;
+        margin-left: 0;     
       }
       
       img {
